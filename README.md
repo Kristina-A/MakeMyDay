@@ -1,8 +1,6 @@
 # MakeMyDayProject
 Simple social network (like Twitter) created in ASP.NET MVC 5 with Redis and Neo4j as databases. Redis is used as cache and Neo4j is used to store users, posts, messages, comments, pictures (pictures are saved as path on server to them), hashtags.
 
-> For all suggestions please feel free to contact me :)
-
 ## Main page
 - Basically like on twitter user is able to upload posts with text, pictures, tags and hashtags. All posts are ordered by post time and every new post is dynamically added on top. On main page there are all new uploaded posts. Latest 10 new posts are in redis db for faster main page loading.
 
